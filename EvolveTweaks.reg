@@ -1,0 +1,92 @@
+Windows Registry Editor Version 5.00
+
+; 7zip context menu
+[HKEY_CURRENT_USER\Software\7-Zip\Options]
+"ContextMenu"=dword:00001205
+
+; open-shell theme
+[HKEY_CURRENT_USER\Software\OpenShell\StartMenu\Settings]
+"Version"=dword:040400c4
+"HybridShutdown"=dword:00000000
+"CheckWinUpdates"=dword:00000000
+"SearchInternet"=dword:00000000
+"SkinW7"="Midnight"
+"SkinVariationW7"=""
+"SkinOptionsW7"=hex(7):55,00,53,00,45,00,52,00,5f,00,49,00,4d,00,41,00,47,00,\
+  45,00,3d,00,31,00,00,00,53,00,4d,00,41,00,4c,00,4c,00,5f,00,49,00,43,00,4f,\
+  00,4e,00,53,00,3d,00,31,00,00,00,4c,00,41,00,52,00,47,00,45,00,5f,00,46,00,\
+  4f,00,4e,00,54,00,3d,00,30,00,00,00,44,00,49,00,53,00,41,00,42,00,4c,00,45,\
+  00,5f,00,4d,00,41,00,53,00,4b,00,3d,00,30,00,00,00,4f,00,50,00,41,00,51,00,\
+  55,00,45,00,3d,00,30,00,00,00,54,00,52,00,41,00,4e,00,53,00,50,00,41,00,52,\
+  00,45,00,4e,00,54,00,5f,00,4c,00,45,00,53,00,53,00,3d,00,30,00,00,00,54,00,\
+  52,00,41,00,4e,00,53,00,50,00,41,00,52,00,45,00,4e,00,54,00,5f,00,4d,00,4f,\
+  00,52,00,45,00,3d,00,31,00,00,00,57,00,48,00,49,00,54,00,45,00,5f,00,53,00,\
+  55,00,42,00,4d,00,45,00,4e,00,55,00,53,00,32,00,3d,00,30,00,00,00,00,00
+"SkipMetro"=dword:00000001
+"MainMenuAnimate"=dword:00000000
+"UserPicturePath"="%SystemDrive%\\@envysetup\\files\\nv.png"
+"PreCacheIcons"=dword:00000001
+"DelayIcons"=dword:00000001
+"FontSmoothing"="ClearType"
+"MenuShadow"=dword:00000001
+"EnableGlass"=dword:00000001
+"GlassOverride"=dword:00000001
+"GlassColor"=dword:00000000
+
+; UAC
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"EnableLUA"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
+"HibernateEnabled"=dword:00000000
+"HiberbootEnabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power]
+"SleepStudyDisabled"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR]
+"AppCaptureEnabled"=dword:00000000
+
+[HKEY_CURRENT_USER\System\GameConfigStore]
+"GameDVR_Enabled"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\AppHost]
+"EnableWebContentEvaluation"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"HideFileExt"=dword:00000000
+
+[HKEY_CURRENT_USER\Control Panel\Accessibility\StickyKeys]
+"Flags"="506"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\input\Settings]
+"InsightsEnabled"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Lighting]
+"AmbientLightingEnabled"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Lighting]
+"ControlledByForegroundApp"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Attachments]
+"SaveZoneInformation"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\SearchSettings]
+"IsDynamicSearchBoxEnabled"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Windows Error Reporting]
+"DontSendAdditionalData"=dword:00000001
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"MouseSpeed"="0"
+"MouseThreshold1"="0"
+"MouseThreshold2"="0"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Edge\SmartScreenEnabled]
+@=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize]
+"EnableTransparency"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\ShellIds\Microsoft.PowerShell]
+"ExecutionPolicy"="Unrestricted"
