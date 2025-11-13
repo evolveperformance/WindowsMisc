@@ -30,7 +30,7 @@ if not exist "%disableBat%" (
 set "tempBat=%disableBat%.tmp"
 
 REM REMOVE lines containing dangerous disables/renames (delete in output)
-findstr /V /I /C:"WSearch" /C:"AppReadiness" /C:"StartMenuExperienceHost.exe" /C:"TextInputHost.exe" /C:"ctfmon.exe" /C:"RuntimeBroker.exe" /C:"ClipSVC" /C:"InstallService" /C:"ApxSvc" /C:"LicenseManager" /C:"CDPSvc" /C:"CDPUserSvc" /C:"BITS" /C:"reg.exe add \"HKLM\%HIVE%\Services\WSearch\"" /C:"REN \"%DRIVE_LETTER%:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe\"" /C:"REN \"%DRIVE_LETTER%:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe\"" "%disableBat%" > "%tempBat%"
+findstr /V /I /C:"AppReadiness" /C:"RuntimeBroker.exe" /C:"ClipSVC" /C:"ApxSvc" "%disableBat%" > "%tempBat%"
 
 move /Y "%tempBat%" "%disableBat%" >nul
 

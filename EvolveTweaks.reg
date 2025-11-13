@@ -27,9 +27,6 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
 "HideFileExt"=dword:00000000
 
-[HKEY_CURRENT_USER\Control Panel\Accessibility\StickyKeys]
-"Flags"="506"
-
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\input\Settings]
 "InsightsEnabled"=dword:00000000
 
