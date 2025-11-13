@@ -30,7 +30,7 @@ if not exist "%disableBat%" (
 set "tempBat=%disableBat%.tmp"
 
 REM REMOVE lines containing dangerous disables/renames (delete in output)
-findstr /V /I /C:"AppReadiness" /C:"RuntimeBroker.exe" /C:"ClipSVC" /C:"ApxSvc" "%disableBat%" > "%tempBat%"
+findstr /V /I /C:"AppReadiness" /C:"RuntimeBroker.exe" /C:"ClipSVC" /C:"ApxSvc" /C:"RpcSS" /C:"DcomLaunch" /C:"EventLog" /C:"BFE" "%disableBat%" > "%tempBat%"
 
 move /Y "%tempBat%" "%disableBat%" >nul
 
